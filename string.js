@@ -1,7 +1,14 @@
 //string
 
-var frase="sou uma frase lek";
+let frase="sou uma frase lek";
+
+frase += (", mt irado");
 console.log(frase);
+
+frase="sou uma frase lek"
+console.log(frase + ", mt irado");
+
+
 console.log(`posso
 usar 
 multiplas 
