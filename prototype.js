@@ -19,7 +19,7 @@ console.log("PAREI DE GRITAR".toLowerCase()+"BLZ ENTÃO".replace("BLZ",", ta nad
 
 let d="prefiro morrer do que";
 console.log(d.includes("perder a vida"));// procura palvras na string e retorna true ou false
-console.log(d.replace("que","que perder a vida").includes("perder a vida"));
+console.log(d.replace("que","que perder a vida").includes("perder a vida")); // edita uma string
 
 let frase="eu odeio nao ter um cell bom";
 let fraseModoArray=frase.split(" ");// split separa uma frase em vairias Strings tranformando em array obs: dentro do parenteses define onde vc vai dividir
